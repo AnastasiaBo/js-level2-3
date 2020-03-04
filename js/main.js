@@ -92,10 +92,6 @@ class ProductsList extends List {
                 this.cart.addProduct(e.target);
             }
         });
-        document.querySelector('.search-form').addEventListener('submit', e => {
-            e.preventDefault();
-            this.filter(document.querySelector('.search-field').value)
-        })
     }
 }
 
